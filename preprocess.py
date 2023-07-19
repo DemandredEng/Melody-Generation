@@ -143,8 +143,11 @@ def generate_training_sequences(sequence_length):
 
     return inputs, targets
 
-preprocess(KERN_DATASET_PATH)
-songs = create_single_file_dataset(SAVE_DIR, SINGLE_FILE_DATASET, SEQUENCE_LENGTH)
-create_mapping(songs, MAPPING_PATH)
 
+def main():
+    preprocess(KERN_DATASET_PATH)
+    songs = create_single_file_dataset(SAVE_DIR, SINGLE_FILE_DATASET, SEQUENCE_LENGTH)
+    create_mapping(songs, MAPPING_PATH)
 
+if __name__ == "__main__":
+    main()
