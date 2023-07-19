@@ -69,7 +69,6 @@ class MelodyGenerator:
 
 mg = MelodyGenerator()
 seed = "67 _ 67 _ 66 _ _ 75 64 _ 64 _ 64 _ _"
-seed2 = "67 _ _ _ _ _ 65 _ 64 _ 62 _ 60 _ _ _"
 melody = mg.generate_melody(seed, 500, SEQUENCE_LENGTH, 0.6)
 print(melody)
 mg.save_melody(melody)

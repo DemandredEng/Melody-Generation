@@ -6,7 +6,7 @@ import music21 as m21
 
 KERN_DATASET_PATH = 'music_kern/erk'
 ACCEPTABLE_DURATIONS = [0.25, 0.5, 0.75, 1.0, 1.5, 2, 3, 4]
-SAVE_DIR = "dataset"
+SAVE_DIR = "convr_dataset"
 SINGLE_FILE_DATASET = "file_dataset"
 SEQUENCE_LENGTH = 64
 MAPPING_PATH = "mapping.json"
